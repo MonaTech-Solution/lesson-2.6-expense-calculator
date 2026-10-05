@@ -26,3 +26,6 @@ quantity = float(quantity)
 
 # Estimated price
 total = price * quantity
+
+# Receipt
+print(f"Name: {name} | Item: {item} | Quantity: {quantity} | At: {price} | Total: {total}")
