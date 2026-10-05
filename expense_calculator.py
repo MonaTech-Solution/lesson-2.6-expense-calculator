@@ -12,3 +12,10 @@ Requirements
 • Test at least three different inputs.
 • Commit the completed logical stage to Git
 """
+
+# Get Purchase details
+print("Expense Calculator")
+name = input("Enter your name: ")
+item = input("Enter item name: ")
+price = input("Amount paid: ")
+quantity = input("Enter quantity: ")
