@@ -44,3 +44,28 @@ second_item_total = second_item_price * second_item_quantity
 
 # Combined total
 estimated_total = first_item_total + second_item_total
+
+# Receipt
+print(
+    f'''
+Receipt.
+********************
+Personal Detail:
+********************
+Name: {name}
+*******************
+Purchase Details
+*******************
+First Item: {first_item}
+Quantity: {first_item_quantity}
+At: {first_item_price}
+Total: {first_item_total}
+--------------------
+Second Item:{second_item}
+Quantity: {second_item_quantity}
+At: {second_item_price}
+Total: {second_item_total}
+---------------------
+Sub Total: {estimated_total}
+    '''
+)
