@@ -23,3 +23,6 @@ quantity = input("Enter quantity: ")
 # Convert price and quantity to numeric value
 price = float(price)
 quantity = float(quantity)
+
+# Estimated price
+total = price * quantity
