@@ -19,3 +19,7 @@ name = input("Enter your name: ")
 item = input("Enter item name: ")
 price = input("Amount paid: ")
 quantity = input("Enter quantity: ")
+
+# Convert price and quantity to numeric value
+price = float(price)
+quantity = float(quantity)
