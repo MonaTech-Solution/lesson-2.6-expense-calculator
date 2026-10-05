@@ -13,19 +13,18 @@ Requirements
 • Commit the completed logical stage to Git
 """
 
-# Get Purchase details
 print("Expense Calculator")
 name = input("Enter your name: ")
-item = input("Enter item name: ")
-price = input("Amount paid: ")
-quantity = input("Enter quantity: ")
+
+print("FIRST ITEM DETAILS")
+# Get First Item Purchase details
+first_item = input("Enter first item name: ")
+first_item_price = input("Amount paid: ")
+first_item_quantity = input("Enter quantity: ")
 
 # Convert price and quantity to numeric value
-price = float(price)
-quantity = float(quantity)
+first_item_price = float(first_item_price)
+first_item_quantity = float(first_item_quantity)
 
-# Estimated price
-total = price * quantity
-
-# Receipt
-print(f"Name: {name} | Item: {item} | Quantity: {quantity} | At: {price} | Total: {total}")
+# Estimated first item price
+first_item_total = first_item_price * first_item_quantity
